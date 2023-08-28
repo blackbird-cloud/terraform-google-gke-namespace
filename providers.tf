@@ -1,14 +1,8 @@
-provider "google" {
-  project = var.project
-  region  = var.region
-}
-
 data "google_client_config" "provider" {}
 
 data "google_container_cluster" "my_cluster" {
   name     = var.cluster_name
-  location = var.region
-  project  = var.project
+  location = var.location
 }
 
 provider "kubernetes" {

@@ -1,4 +1,4 @@
 output "namespace" {
-  description = "Created namespace on kubernetes"
-  value       = module.namespace.namespace
+  description = "The created Namespace on Kubernetes."
+  value       = module.namespace
 }
