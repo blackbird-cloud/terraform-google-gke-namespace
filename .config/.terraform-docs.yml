@@ -14,8 +14,7 @@ sections:
     - modules
 
 content: |-
-  # A Google Kubernetes Engine Namespace Terraform module
-  A Terraform module which configures your Google Kubernetes Engine namespace.
+  {{ include "./.config/title.md"}}
 
   {{ .Header }}
 
