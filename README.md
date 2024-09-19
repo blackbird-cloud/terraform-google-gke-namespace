@@ -1,7 +1,8 @@
-# A Google Kubernetes Engine Namespace Terraform module
-A Terraform module which configures your Google Kubernetes Engine namespace.
+<!-- BEGIN_TF_DOCS -->
+# Terraform Google Gke Namespace Module
+Simple namespace creator for GKE clusters
 
-[![blackbird-logo](https://raw.githubusercontent.com/blackbird-cloud/terraform-module-template/main/.config/logo_simple.png)](https://www.blackbird.cloud)
+[![blackbird-logo](https://raw.githubusercontent.com/blackbird-cloud/terraform-module-template/main/.config/logo_simple.png)](https://blackbird.cloud)
 
 ## Example
 ```hcl
@@ -39,7 +40,7 @@ provider "google" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_google"></a> [google](#provider\_google) | 4.79.0 |
+| <a name="provider_google"></a> [google](#provider\_google) | ~> 4 |
 
 ## Resources
 
@@ -72,4 +73,5 @@ Checkout our other :point\_right: [terraform modules](https://registry.terraform
 
 ## Copyright
 
-Copyright © 2017-2023 [Blackbird Cloud](https://www.blackbird.cloud)
+Copyright © 2017-2024 [Blackbird Cloud](https://blackbird.cloud)
+<!-- END_TF_DOCS -->
